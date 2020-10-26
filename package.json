@@ -1,0 +1,25 @@
+{
+  "name": "google-closure-library-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toshi-toma/google-closure-library-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshi-toma/google-closure-library-sandbox/issues"
+  },
+  "homepage": "https://github.com/toshi-toma/google-closure-library-sandbox#readme",
+  "dependencies": {
+    "google-closure-library": "^20200830.0.0"
+  },
+  "devDependencies": {}
+}
