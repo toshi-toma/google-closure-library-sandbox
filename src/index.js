@@ -1,3 +1,4 @@
+goog.module("index");
 console.log("index.js");
 
 // goog
@@ -5,7 +6,9 @@ goog.require("goog.dom");
 goog.require('goog.dom.TagName');
 
 // モジュール読み込み
-goog.require('sum');
+const functions = goog.require('functions');
+
+console.log("functions module", functions);
 
 window.onload = () => {
   const root = document.getElementById("root");
@@ -13,5 +16,5 @@ window.onload = () => {
   h1.append("Closure Library");
   goog.dom.appendChild(root, h1);
 
-  sum.log();
+  functions.log();
 }

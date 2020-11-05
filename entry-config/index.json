@@ -1,0 +1,7 @@
+{
+  "id": "index",
+  "output-file": "../build/index.js",
+  "mode": "SIMPLE",
+  "paths": ["../src", "../node_modules/google-closure-library"],
+  "inputs": ["../src/index.js"]
+}

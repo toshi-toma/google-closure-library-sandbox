@@ -1,6 +1,7 @@
 // モジュール宣言
-goog.provide("sum");
+goog.module("functions");
 
-sum.log = () => {
-  console.log("sum.log");
+
+exports.log = () => {
+  console.log("functions.log");
 }
